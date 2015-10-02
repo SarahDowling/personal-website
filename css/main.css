@@ -81,6 +81,19 @@ p{
 	margin: 0.25em;
 }
 
-@media only screen and (min-width: 28.75em) {
-	difndsi
+@media only screen and (min-width: 30em) {
+	.header-words{
+		width: 70%;
+	}
+	h1{
+		font-size: 2.390625rem;
+	}
+	h2{
+		font-size: 5.379375rem;
+	}
+	.its-sarah{
+		height: 200px;
+		width: 30%;
+		background-size: auto 200px;
+
 }
