@@ -20,14 +20,12 @@ body{
 	overflow-x:hidden;
 	margin: 0;
 }
-
 header{
 	margin-bottom: 2em;
 	padding: 1em;
 	background-color: #ff786c;
 	overflow: hidden;
 }
-
 h1{
 	font-size: 1.5625rem;
 	margin: 0;
@@ -60,8 +58,9 @@ p{
 	background-image: url("../img/sarah-face.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 0 0;
+	background-position: center center;
 	overflow: hidden;
+	border-radius: 12px;
 }
 
 
@@ -80,8 +79,11 @@ p{
 	padding: 0.5em;
 	margin: 0.25em;
 }
+.img-size{
+	width: 100%;
+}
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 35em) {
 	.header-words{
 		width: 70%;
 	}
@@ -91,9 +93,30 @@ p{
 	h2{
 		font-size: 5.379375rem;
 	}
+	p{
+		font-size: 1.0625rem;
+	}
 	.its-sarah{
 		height: 200px;
-		width: 30%;
+		width: 133.33px;
 		background-size: auto 200px;
+		background-position: center center;
+	}
+}
 
+
+@media only screen and (min-width: 62em) {
+	h1{
+		font-size: 5.03rem;
+	}
+	h2{
+		font-size: 8.14rem;
+	}
+	.its-sarah{
+		height: 330px;
+		width: 220px;
+		background-size: auto 330px;
+		background-position: center center;
+		padding-top, padding-bottom: 2em;
+	}
 }
