@@ -15,3 +15,26 @@ html{
 *, *::before, *::after{
 	box-sizing: inherit;
 }
+
+body{
+	background-color: #ff786c;
+	overflow-x:hidden;
+}
+
+.header-words{
+	float: left;
+	overflow: hidden;
+}
+p{
+	clear: both;
+}
+
+.its-sarah{
+	float: right;
+	width: 20%;
+	background-image: url("../img/sarah-face.jpg");
+	background-size: auto 50%;
+	background-repeat: no-repeat;
+	background-position: 5% 25%;
+	overflow: hidden;
+}
