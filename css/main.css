@@ -46,7 +46,7 @@ h2{
 	overflow: hidden;
 	display: inline-block;
 	vertical-align: middle;
-	width: 80%;
+	width: 60%;
 	padding-top: 0.5em;
 	padding-right: 1em;
 	float: left;
@@ -120,6 +120,7 @@ p{
 	}
 	.header-words{
 		padding-top: 0.5em;
+		width: 80%;
 	}
 }
 
@@ -143,6 +144,9 @@ p{
 		width: 133.33px;
 		background-size: auto 200px;
 		background-position: center center;
+	}
+	.profile-buttons{
+		width: 40%;
 	}
 }
 
@@ -200,7 +204,7 @@ p{
 	}
 }
 
-@media only screen and (min-width: 90em) {
+@media only screen and (min-width: 95em) {
 	header{
 		padding: 2rem 15%;
 	}
@@ -251,6 +255,7 @@ p{
 		display: none;
 	}
 	main a::after{
+		content: " " attr(href) ;
 		color: black;
 		width: 15%;
 		text-decoration: none;
@@ -258,7 +263,9 @@ p{
 		font-weight: 200;
 		padding: 0;
 		line-height: 1;
-		content: " " attr(href);
+	}
+	main a{
+		text-decoration: none;
 	}
 	.img-clear{
 		width: 15%;
@@ -297,13 +304,14 @@ p{
 	}
 	.header-words{
 		display: inline-block;
-		padding: 0.25em 0 0 0;
+		padding: 0.25em 0 0 0.25em;
 		margin: 0;
 	}
 	h1{
 		font-size: 2em;
 	}
 	h2{
+		padding-top: 0.25em;
 		font-size: 1.5em;
 	}
 	p{
@@ -315,5 +323,9 @@ p{
 		border-radius: 4px;
 		width: 40%;
 		font-size: 0.5rem;
+		padding-bottom: 9em;
+	}
+	header{
+		background-color: inherit;
 	}
 }
