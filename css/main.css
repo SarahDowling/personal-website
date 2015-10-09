@@ -148,6 +148,9 @@ p{
 	.profile-buttons{
 		width: 40%;
 	}
+	.main-text{
+		padding-top: 3em;
+	}
 }
 
 @media only screen and (min-width: 48em) {
@@ -170,9 +173,6 @@ p{
 	}
 	.img-align-left{
 		margin-left: -0.4em;
-	}
-	.main-text{
-		padding-top: 3em;
 	}
 	p{
 		padding: 1em 0 1em 0;
@@ -201,6 +201,9 @@ p{
 		background-size: auto 330px;
 		background-position: center center;
 		padding: 2em 0;
+	}
+	.main-text{
+		padding-top: 3em;
 	}
 }
 
