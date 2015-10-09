@@ -17,7 +17,9 @@ html{
 }
 
 
-
+main{
+	display: block;
+}
 
 body{
 	overflow-x:hidden;
@@ -249,16 +251,14 @@ p{
 		display: none;
 	}
 	main a::after{
-		content: "" attr(href) "";
-		color: #999;
+		color: black;
 		width: 15%;
 		text-decoration: none;
-		line-height: 1.5rem;
 		font-family: 'Roboto', sans-serif;
 		font-weight: 200;
-		color: black;
 		padding: 0;
 		line-height: 1;
+		content: " " attr(href);
 	}
 	.img-clear{
 		width: 15%;
@@ -317,8 +317,3 @@ p{
 		font-size: 0.5rem;
 	}
 }
-
-
-
-
-/** @media print{
