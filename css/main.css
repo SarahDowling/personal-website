@@ -131,36 +131,49 @@ p{
 }
 
 @media only screen and (min-width: 48em) {
+	header{
+		padding: 2rem 12%;
+	}
+	main{
+		margin: 0 12%;
+	}
 	.profile-buttons{
 		width: 100%;
+		padding-top: 3em;
 	}
 	.img-clear{
 		float:left;
 		width: 25%;
 		clear: none;
+		padding: 0;
 	}
 	.img-float-right{
 		width: 25%;
 		float: left;
+		padding: 0;
+	}
+	.img-align-left{
+		margin-left: -0.4em;
+	}
+	.main-text{
+		padding-top: 5em;
+	}
+	p{
+		padding: 0 0 1em 0;
 	}
 }
 
-@media only screen and (min-width: 62em) {
+@media only screen and (min-width: 65em) {
 	header{
-		padding: 2em;
+		padding: 2rem 23%;
 	}
 	main{
-		margin-left: 1em;
-		margin-right: 1em;
+		margin: 0 23%;
 	}
 	.header-words{
-		padding-top: 3.5em;
-	}
-	h1{
-		font-size: 4.03rem;
-	}
-	h2{
-		font-size: 7.14rem;
+		padding-top: 5.5em;
+		padding-right: 0;
+		width: 60%;
 	}
 	.its-sarah{
 		height: 330px;
@@ -168,5 +181,41 @@ p{
 		background-size: auto 330px;
 		background-position: center center;
 		padding: 2em 0;
+	}
+}
+
+@media only screen and (min-width: 90em) {
+	header{
+		padding: 2rem 15%;
+	}
+	main{
+		margin: 0 15%;
+		padding-right: 22%;
+	}
+	.header-words{
+		padding-top: 2.5em;
+		width: 75%;
+	}
+	h1{
+		font-size: 5.03rem;
+	}
+	h2{
+		font-size: 8.139rem;
+	}
+	.profile-buttons{
+		width: 50%;
+		padding-top: 3em;
+	}
+	.img-float-right{
+		width: 15%;
+		padding-right: 1em;
+	}
+	.img-clear{
+		width: 15%;
+		padding-right: 1em;
+	}
+	.main-text{
+		padding-top: 15em;
+		width: 32.8em;
 	}
 }
