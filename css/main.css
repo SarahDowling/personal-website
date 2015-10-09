@@ -38,9 +38,13 @@ h2{
 	font-family: 'Playfair Display', serif;
 }
 .header-words{
-	float: left;
 	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
 	width: 80%;
+	padding-top: 0.5em;
+	padding-right: 1em;
+	float: left;
 }
 p{
 	clear: both;
@@ -52,7 +56,6 @@ p{
 }
 
 .its-sarah{
-	float: right;
 	width: 20%;
 	height: 8em;
 	background-image: url("../img/sarah-face.jpg");
@@ -61,6 +64,7 @@ p{
 	background-position: center center;
 	overflow: hidden;
 	border-radius: 12px;
+	float: right;
 }
 
 
@@ -69,19 +73,40 @@ p{
 .img-clear{
 	clear: left;
 	float: left;
-	width: 45%;
+	width: 49%;
 	padding: 0.5em;
-	margin: 0.25em;
 }
 .img-float-right{
 	float: right;
-	width: 45%;
+	width: 49%;
 	padding: 0.5em;
-	margin: 0.25em;
 }
 .img-size{
 	width: 100%;
 }
+
+
+
+
+
+@media only screen and (min-width: 20.25em) {
+	.header-words{
+		padding-top: 1.5em;
+	}
+}
+
+@media only screen and (min-width: 27.81em) {
+	h1{
+		font-size: 2.1625;
+	}
+	h2{
+		font-size: 3.4375rem;
+	}
+	.header-words{
+		padding-top: 1.5em;
+	}
+}
+
 
 @media only screen and (min-width: 35em) {
 	.header-words{
@@ -103,6 +128,17 @@ p{
 		background-position: center center;
 	}
 }
+
+@media only screen and (min-width: 48em) {
+	.header-words{
+	h1{
+		font-size: 2.39rem;
+	}
+	h2{
+		font-size: 5.379rem;
+	}
+}
+
 
 
 @media only screen and (min-width: 62em) {
