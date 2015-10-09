@@ -97,13 +97,13 @@ p{
 
 @media only screen and (min-width: 27.81em) {
 	h1{
-		font-size: 2.1625;
+		font-size: 2.1625rem;
 	}
 	h2{
 		font-size: 3.4375rem;
 	}
 	.header-words{
-		padding-top: 1.5em;
+		padding-top: 0.5em;
 	}
 }
 
@@ -111,6 +111,7 @@ p{
 @media only screen and (min-width: 35em) {
 	.header-words{
 		width: 70%;
+		padding-top: 1.5em;
 	}
 	h1{
 		font-size: 2.390625rem;
@@ -130,29 +131,42 @@ p{
 }
 
 @media only screen and (min-width: 48em) {
-	.header-words{
-	h1{
-		font-size: 2.39rem;
+	.profile-buttons{
+		width: 100%;
 	}
-	h2{
-		font-size: 5.379rem;
+	.img-clear{
+		float:left;
+		width: 25%;
+		clear: none;
+	}
+	.img-float-right{
+		width: 25%;
+		float: left;
 	}
 }
 
-
-
 @media only screen and (min-width: 62em) {
+	header{
+		padding: 2em;
+	}
+	main{
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+	.header-words{
+		padding-top: 3.5em;
+	}
 	h1{
-		font-size: 5.03rem;
+		font-size: 4.03rem;
 	}
 	h2{
-		font-size: 8.14rem;
+		font-size: 7.14rem;
 	}
 	.its-sarah{
 		height: 330px;
 		width: 220px;
 		background-size: auto 330px;
 		background-position: center center;
-		padding-top, padding-bottom: 2em;
+		padding: 2em 0;
 	}
 }
