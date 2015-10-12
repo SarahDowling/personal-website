@@ -109,7 +109,11 @@ footer{
 
 
 
-
+@media only screen and (min-width: 25.125em) {
+	.header-words{
+		padding-top: 1.5em;
+	}
+}
 
 @media only screen and (min-width: 27.81em) {
 	h1{
