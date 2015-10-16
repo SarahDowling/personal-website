@@ -108,7 +108,7 @@ footer{
 	clear: left;
 	margin-top: 8rem;
 	clear: both;
-	padding: 1em 0;
+	padding: 1rem 0;
 }
 footer p{
 	padding: 0 0 0 1em;
@@ -162,7 +162,7 @@ footer p{
 		padding-top: 3em;
 	}
 	footer p{
-		padding: 1 rem 0;
+		padding: 0 1rem;
 	}
 }
 
