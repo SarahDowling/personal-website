@@ -19,6 +19,7 @@ html{
 
 main{
 	display: block;
+	padding-bottom: 3em;
 }
 
 body{
@@ -184,6 +185,9 @@ footer{
 	html{
 		font-size: 110%;
 		line-height: 1.4;
+	}
+	footer{
+		padding: 0 12%;
 	}
 }
 
